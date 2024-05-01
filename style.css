@@ -1,0 +1,189 @@
+
+
+.nav-item1{
+    position: relative;left: 45px;
+}
+
+
+.btn-success{
+    background-color: white;
+    border-radius: 10px;
+}
+
+.intro{
+    width: 100%;
+    height: 350px;
+    border-radius: 15px;
+    font-family: My font;
+    background: linear-gradient(90deg, #C1DEE8 0%, #FBD9B9 100%);
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.left{
+    position: relative;left: 10px;
+}
+
+.picture{
+    text-align: end;
+    position: relative; left: 100px;
+}
+
+.intro-2{
+    text-align: center;
+    font-family: My font;
+    margin-top: 50px;
+}
+
+.head-2{
+    font-size: 40px;
+    font-weight: 800;
+}
+span{
+    font-family: My font;
+}
+.head-4{
+    font-size: 28px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.intro-3{ 
+    margin-left: 50px;
+    margin-right:50px ;
+    margin-top: 50px;
+    justify-content: space-between !important;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.head-p{
+    font-family: My font;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.card-group{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 30px;
+}
+.card-body{
+    font-family: My font;
+}
+
+.card{
+    border: 1px solid gray !important;  
+}
+.fa-solid{
+    color: gold;
+}
+.fa-regular{
+    color: gray;
+}
+
+.head-3{
+    font-size: 40px;
+    font-weight: 800;
+    font-family: My font;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.head-5{
+    font-size: 30px;
+    font-weight: 800;
+    font-family: My font;
+}
+
+.btn-one{
+    border-radius: 35px !important;
+    background-color: black;
+    color: white;
+    padding: 13px 25px;
+    border: 0px;
+
+    
+
+
+}
+.btn-two{
+    border-radius: 35px !important;
+    background-color:white;
+    color:black;
+    padding: 13px 25px;
+    border: 1px solid gray;
+    margin-left: 20px;
+
+}
+.head-6{
+    font-size: 67px;
+    font-weight: 600;
+    font-family: My font;
+}
+
+.cente{
+    margin-left: 35px;
+    margin-right: 35px;
+      
+}
+.h{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.main-4{
+    display: flex !important;
+    /* margin-left: 90px;
+    margin-right: 90px; */
+    font-family: My font;
+    flex-wrap: wrap;
+    margin-left: 25px;
+    margin-right: 25px;
+    
+    
+    
+}
+.img-rights{
+    padding-left: 100px;
+    
+}
+
+
+
+@media only screen and (max-width: 500px) {
+    .intro{
+        text-align: center;
+        width: 100%;
+        height: 600px;
+}
+
+    .left>img{
+        width: 200px;
+    }
+
+    .picture>img{
+     width: 320px;
+     height: 300px;
+     position: relative;right: 70px; top: 50px;
+
+    }
+    .img-rights{
+        position: relative;right: 40px;
+    }
+
+}
+
+@media only screen and (min-width: 500px){
+    .cent{
+        margin-left: 30px !important;
+        margin-right: 30px;
+    }
+    .img-rights>img{
+        text-align: end;
+    }
+}
+
+
+
